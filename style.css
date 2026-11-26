@@ -1,5 +1,7 @@
 body {
     background:linear-gradient(to left, rgb(152, 152, 207),rgb(105, 185, 135));
+    display: flex;
+    justify-content: center;
 
 }
 h1{
@@ -43,6 +45,7 @@ button{
     border-width: 1.px;
     font-size: 25px;
     border-radius: 10px;
+    height: 70px !important;
 }
 #display{
     background-color: rgb(232, 216, 192);
