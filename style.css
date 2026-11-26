@@ -14,15 +14,6 @@ font-family: Georgia, 'Times New Roman', Times, serif,sans-serif;
     font-style:inherit;
     text-align: center;
 }
-@media (max-width:768px){
-    body{
-        display: block;
-        background: #111; } }
-h1,h2,h3,p, header, footer, .welcome, .info, .side-text, .left, .right {
-     display: block !important;
-    width: 100% !important;
-    text-align: center !important;
-    font-size: 18px !important;
 
 p{
     background-color: linear-gradient(to right, black, white);
