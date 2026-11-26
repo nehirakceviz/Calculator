@@ -1,0 +1,69 @@
+body {
+    background:linear-gradient(to left, rgb(152, 152, 207),rgb(105, 185, 135));
+
+}
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif,sans-serif;
+    color:rgb(85, 89, 92);
+    font-style:inherit;
+    text-align: center;
+}
+
+
+p{
+    background-color: linear-gradient(to right, black, white);
+background-clip: text;
+    color: blanchedalmond;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box {
+    box-sizing: border-box;
+    border: 1px solid;
+border-style: dotted;
+border-width: 4px;
+border-color: black;
+border-radius: 20px;
+    height: 600px;
+    width: 500px;
+    background-color:rgb(2, 2, 34);
+    padding: 20;
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+}
+button{
+    background-attachment: fixed;
+    background-color: blanchedalmond;
+    color: darkblue;
+    padding: 17px;
+    margin: 22px;
+    border: 1px solid;
+    border-color: rgb(100, 85, 64);
+    border-width: 1.px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+#display{
+    background-color: rgb(232, 216, 192);
+    color:black;
+    border:1px solid;
+    height: 100px;
+    font-size: 35px;
+    text-align: right;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.inner{
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.inner button{
+    margin: 2.4px;
+    width: 100%;
+}
