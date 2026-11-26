@@ -2,6 +2,10 @@ body {
     background:linear-gradient(to left, rgb(152, 152, 207),rgb(105, 185, 135));
     display: flex;
     justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    min-height:100vh;
+    min-height:100dvh;
 
 }
 h1{
@@ -10,7 +14,15 @@ font-family: Georgia, 'Times New Roman', Times, serif,sans-serif;
     font-style:inherit;
     text-align: center;
 }
-
+@media (max-width:768px){
+    body{
+        display: block;
+        background: #111; } }
+h1,h2,h3,p, header, footer, .welcome, .info, .side-text, .left, .right {
+     display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 18px !important;
 
 p{
     background-color: linear-gradient(to right, black, white);
@@ -70,3 +82,5 @@ button{
     margin: 2.4px;
     width: 100%;
 }
+
+    
